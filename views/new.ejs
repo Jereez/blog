@@ -1,0 +1,19 @@
+<% include ./partials/header %>
+<div class="ui main text container segment">
+<div class="ui huge header">New Blog</div>
+<form  class="ui form"action="/blogs" method="POST">
+<div class="field">
+<div>
+<label>title</label>
+<input type="text" name="blog[title]" placeholder="enter the name" required>
+<div>
+<label>image</label>
+<input type="text" name="blog[image]" placeholder="enter the image" required>
+<div>
+<label>body</label>
+<textarea name="blog[body]"></textarea>
+
+<input type="submit" class="ui secondry big button">
+</form>
+</div>
+<% include ./partials/footer %>
