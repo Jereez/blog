@@ -4,19 +4,19 @@
 <form  class="ui form"action="/register" method="POST">
 <div class="field">
 <label>Name</label>
-<input type="text" name="user[name]" placeholder="enter the name" required>
+<input type="text" name="name" placeholder="enter the name" required>
 <label>User name</label>
-<input type="text" name="user[username]" placeholder="enter your user name" required>
+<input type="text" name="username" placeholder="enter your user name" required>
 <div>
 <label>email</label>
-<input type="text" name="user[email]" placeholder="enter your email" required>
-<div>
-<label>Password</label>
-<input type="text" name="user[password]" placeholder="enter the password" required>
+<input type="text" name="email" placeholder="enter your email" required>
+
 <div>
 <label>Phone number</label>
-<input type="text" name="user[phone]" placeholder="enter the phone number" required>
-
+<input type="text" name="phone" placeholder="enter the phone number" required>
+<div>
+<label>Password</label>
+<input type="text" name="password" placeholder="enter the password" required>
 <a class="ui basic big button" href="/login">login</a>
 <input type="submit" class="ui secondry big button" value="Register">
 </form>

@@ -4,16 +4,16 @@
 <form  class="ui form"action="/login" method="POST">
 <div class="field">
 <label>User name</label>
-<input type="text" name="user[username]" placeholder="enter the name" required>
+<input type="text" name="username" placeholder="enter the username" required>
 <div>
 <label>Password</label>
-<input type="text" name="user[password]" placeholder="enter the password" required>
+<input type="text" name="password" placeholder="enter the password" required>
 <div>
 
 <input type="submit" class="ui secondry big button" value="Login">
 </form>
-<a class="ui basic big button" href="/register">Register</a>
 
+<a class="ui basic big button" href="/register" >Register</a>
 
 </div>
 <% include ./partials/footer %>
